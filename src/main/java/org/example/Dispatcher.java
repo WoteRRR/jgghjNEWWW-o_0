@@ -9,8 +9,7 @@ public class Dispatcher {
         String lastName = console.getInput("Введите фамилию игрока: ");
         String middleName = console.getInput("Введите отчество игрока: ");
 
-        System.out.println("Ник игрока: " + nickname);
-        System.out.println("Логин игрока: " + login);
         User user = new User(nickname, login, firstName, lastName, middleName);
+        System.out.println(user.toString());
     }
 }
