@@ -11,5 +11,12 @@ public class Dispatcher {
 
         User user = new User(nickname, login, firstName, lastName, middleName);
         System.out.println(user.toString());
+
+        User myUser = new User();
+        myUser.getFirstName();
+        myUser.getLastName();
+        myUser.getMiddleName();
+        myUser.getNickname();
+        myUser.getLogin();
     }
 }
